@@ -17,7 +17,7 @@ public class Calculator {
     
     FileHandler fh;
     try{
-      fh = new FileHandler("X:\\Programming\\Java_project\\home_work\\lesson_2\\Calculator.java\\loger.txt");
+      fh = new FileHandler("X:\\Programming\\Java_project\\home_work\\lesson_2\\Calculator.java\\log.txt");
       log.addHandler(fh);
       SimpleFormatter formatter = new SimpleFormatter();
       fh.setFormatter(formatter);
